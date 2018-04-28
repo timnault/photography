@@ -23,13 +23,5 @@ social_urls:
   instagram: "https://www.instagram.com/timnaultphotography/"
   linkedin: "https://www.linkedin.com/in/timnault/"
   github: "https://www.github.com/timnault"
-=======
-  facebook: "https://www.facebook.com/ramswaroop"
-  twitter: "https://www.twitter.com/ramswarooppatra"
-  instagram: "https://www.instagram.com/ramswarooppatra"
-  dribbble: "https://dribbble.com/ramswaroop"
-  linkedin: "https://in.linkedin.com/in/ramswarooppatra"
-  github: "https://www.github.com/ramswaroop"
-
 theme: jekyll-theme-minimal
 >>>>>>> 08aad4d1d3754cd7ce4e034cbcb6c10e38eda585
