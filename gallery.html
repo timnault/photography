@@ -8,6 +8,7 @@ layout: default
     <!-- Header -->
     <header id="header">
         <h1><a href="index.html"><strong>{{ site.header.title }}</strong> {{ site.header.subtitle }}</a></h1>
+        <h2>In Time</h2>
         <nav>
             <ul>
                 <li><a href="gallery.html" class="icon fa-info-circle">Gallery</a></li>
@@ -21,8 +22,8 @@ layout: default
         {% for image in site.static_files %}
         {% if image.path contains 'fulls' %}
         <article class="thumb">
-            <a href="{{ site.baseurl }}{{ site.image_fulls_loc }}/{{ image.name }}" class="image">
-                <img src="{{ site.baseurl }}{{ site.image_thumbs_loc }}/{{ image.name }}" alt=""
+            <a href="{{ site.baseurl }}{{ site.image_fulls_loc }}/In Time/{{ image.name }}" class="image">
+                <img src="{{ site.baseurl }}{{ site.image_thumbs_loc }}/In Time/{{ image.name }}" alt=""
                      data-name="{{ image.name }}"/></a>
             <!--<h2></h2>
             <p></p>-->
