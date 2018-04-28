@@ -1279,6 +1279,12 @@
 
 		}
 
+		@media only screen and (orientation : landscape) {
+			body {
+				background: #ffffff;
+			}
+		}
+
 /* Wrapper */
 
 	#wrapper {
