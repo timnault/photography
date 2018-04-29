@@ -1449,9 +1449,8 @@
 			-ms-user-select: none;
 			user-select: none;
 			text-align: center;
-
 		}
-	                .mainnav {
+	                .mainnavbutton {
   				display: inline-block;
 				cursor: pointer;
 				text-transform: capitalize;
@@ -1463,6 +1462,14 @@
 				-moz-border-radius: 2px;
 				border-radius: 2px;
 				transition: background-color 0.2s;
+				float: none;
+				text-align: center;
+        	        }
+
+	                .mainnav {
+  				display: inline-block;
+				cursor: pointer;
+				text-transform: capitalize;
 				float: none;
 				text-align: center;
         	        }
