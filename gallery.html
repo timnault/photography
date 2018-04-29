@@ -16,9 +16,11 @@ layout: default
         </nav>
     </header>
 
+    <!-- Main Nav-->
+        {% include mainnav.html %}
+
     <!-- Main -->
     <div id="main">
-        {% include mainnav.html %}
         {% for image in site.static_files %}
         {% if image.path contains 'fulls/In_Time' %}
         <article class="thumb">
