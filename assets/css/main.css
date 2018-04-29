@@ -1486,7 +1486,7 @@
 				cursor: pointer;
 				text-transform: capitalize;
 				border: 1px solid #d3d3d3;
-				background: #f9f9f9;
+				background-color: #f9f9f9;
 				padding: 6px 8px;
 				margin: 5px 5px 0 0;
 				-webkit-border-radius: 2px;
@@ -1506,10 +1506,10 @@
 				color: #1f2224;
         	        }
 
-		                .mainnav a:hover, .mainnav a:active,.mainnav a:selected {
-					background: #f0f0f0;
-					border: 1px solid #c6c6c6;
-					color: #c3c3c3;
+		                .mainnav a:hover, .mainnav a:active, .mainnav a:selected, div.mainnavbutton:hover, div.mainnavbutton:active, div.mainnavbutton:selected {
+					background-color: #f0f0f0!important;
+					border: 1px solid #c6c6c6!important;
+					color: #c3c3c3!important;
             	  		}
 
 
