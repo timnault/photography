@@ -18,11 +18,7 @@ layout: default
 
     <!-- Main -->
     <div id="main">
-        <nav>
-            <ul>
-                <li><a href="gallery.html" class="icon fa-info-circle">Gallery</a></li>
-            </ul>
-        </nav>
+        {% include mainnav.html %}
         {% for image in site.static_files %}
         {% if image.path contains 'fulls/In_Time' %}
         <article class="thumb">
