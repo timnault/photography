@@ -10,7 +10,6 @@ layout: default
         <h1><a href="index.html"><strong>{{ site.header.title }}</strong> {{ site.header.subtitle }}</a></h1>
         <nav>
             <ul>
-                <li><a href="gallery.html" class="icon fa-info-circle">Gallery</a></li>
                 <li><a href="#footer" class="icon fa-info-circle">About</a></li>
             </ul>
         </nav>
@@ -20,6 +19,11 @@ layout: default
     <div id="main">
         {% for image in site.static_files %}
         {% if image.path contains 'fulls' %}
+        <nav>
+            <ul>
+                <li><a href="gallery.html" class="icon fa-info-circle">Gallery</a></li>
+            </ul>
+        </nav>
         <article class="thumb">
             <a href="{{ site.baseurl }}{{ site.image_fulls_loc }}/{{ image.name }}" class="image">
                 <img src="{{ site.baseurl }}{{ site.image_thumbs_loc }}/{{ image.name }}" alt=""
