@@ -1,12 +1,6 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic");
 
-/*
-	Multiverse by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 /* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -16,6 +10,11 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
+	}
+	
+	html {
+		height: 100%;
+		margin: 0;
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -973,10 +972,10 @@
 
 	.panel {
 		padding: 4em 4em 2em 4em ;
-		-moz-transform: translateY(100vh);
-		-webkit-transform: translateY(100vh);
-		-ms-transform: translateY(100vh);
-		transform: translateY(100vh);
+		-moz-transform: translateY(-100vh);
+		-webkit-transform: translateY(-100vh);
+		-ms-transform: translateY(-100vh);
+		transform: translateY(-100vh);
 		-moz-transition: -moz-transform 0.5s ease;
 		-webkit-transition: -webkit-transform 0.5s ease;
 		-ms-transition: -ms-transform 0.5s ease;
@@ -1386,7 +1385,7 @@
 /* Header */
 
 	body {
-		padding: 0 0 4em 0;
+		padding: 0 2em 4em 1em;
 	}
 
 	#header {
@@ -1405,7 +1404,7 @@
 		top: -.1em;
 		height: 5em;
 		left: 0;
-		line-height: 4em;
+		line-height: 5em;
 		padding: 0 1.5em;
 		position: fixed;
 		user-select: none;
@@ -1419,6 +1418,14 @@
 			-ms-transform: translateY(-4em);
 			transform: translateY(-4em);
 		}
+
+		.logo {
+			height: auto;
+			max-width: 60px;
+			padding: 12px 5px;
+			vertical-align: middle;
+		}
+
 
 		#header h1 {
 			color: #a0a0a1;
@@ -1638,6 +1645,14 @@
 
 /* Main */
 
+	.col-1 {
+		width: 16.66666667%;
+	}
+
+	.col-2 {
+		width: 83.33333333%;
+	}
+
 	#main {
 		-moz-transition: -moz-filter 0.5s ease, -webkit-filter 0.5s ease, -ms-filter 0.5s ease, -moz-filter 0.5s ease;
 		-webkit-transition: -moz-filter 0.5s ease, -webkit-filter 0.5s ease, -ms-filter 0.5s ease, -webkit-filter 0.5s ease;
@@ -1673,7 +1688,6 @@
 				background-image: -moz-linear-gradient(to top, rgba(10,17,25,0.35) 5%, rgba(10,17,25,0) 35%);
 				background-image: -webkit-linear-gradient(to top, rgba(10,17,25,0.35) 5%, rgba(10,17,25,0) 35%);
 				background-image: -ms-linear-gradient(to top, rgba(10,17,25,0.35) 5%, rgba(10,17,25,0) 35%);
-				background-image: linear-gradient(to top, rgba(10,17,25,0.35) 5%, rgba(10,17,25,0) 35%);
 				-moz-pointer-events: none;
 				-webkit-pointer-events: none;
 				-ms-pointer-events: none;
@@ -1699,7 +1713,7 @@
 				position: absolute;
 				top: 0;
 				width: 100%;
-				margin: 5px;
+				margin: 2px;
 			}
 
 			#main .thumb > h2 {
@@ -2118,3 +2132,13 @@
 		#footer .copyright a {
 			color: inherit;
 		}
+
+/* Index */
+
+	.index_bg_img {
+		background-image: url("https://timnault.github.io/photography/images/fulls/Convergence.jpg");
+    		height: 100%; 
+    		background-position: center;
+  	 	background-repeat: no-repeat;
+    		background-size: cover;
+	}
